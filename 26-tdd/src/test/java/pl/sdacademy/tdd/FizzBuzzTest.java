@@ -15,7 +15,7 @@ public class FizzBuzzTest {
                 int number = 1;
 
                 //when
-                String msg = FizzBuzz.msg(number);
+                String msg = pl.sdacademy.tdd.FizzBuzz.msg(number);
 
                 //then
                 assertThat(msg).isEqualTo("1");
@@ -29,7 +29,7 @@ public class FizzBuzzTest {
                 int number = 2;
 
                 //when
-                String msg = FizzBuzz.msg(number);
+                String msg = pl.sdacademy.tdd.FizzBuzz.msg(number);
 
                 //then
                 assertThat(msg).isEqualTo("2");
@@ -43,7 +43,7 @@ public class FizzBuzzTest {
                 int number = 3;
 
                 //when
-                String msg = FizzBuzz.msg(number);
+                String msg = pl.sdacademy.tdd.FizzBuzz.msg(number);
 
                 //then
                 assertThat(msg).isEqualTo("Fizz");
@@ -58,7 +58,7 @@ public class FizzBuzzTest {
                 int number = 5;
 
                 //when
-                String msg = FizzBuzz.msg(number);
+                String msg = pl.sdacademy.tdd.FizzBuzz.msg(number);
 
                 //then
                 assertThat(msg).isEqualTo("Buzz");
@@ -73,7 +73,7 @@ public class FizzBuzzTest {
                 int number = 15;
 
                 //when
-                String msg = FizzBuzz.msg(number);
+                String msg = pl.sdacademy.tdd.FizzBuzz.msg(number);
 
                 //then
                 assertThat(msg).isEqualTo("FizzBuzz");
